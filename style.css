@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body{
+    box-sizing: border-box;
+    margin: 0;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'outfit', sans-serif;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+span{
+    color: hsl(178, 100%, 50%);
+}
+hr{
+    margin-bottom: 0;
+    color: hsl(215, 38%, 44%);
+    font-size: smaller;
+}
+.project-card{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+}
+.card{
+    background-color: hsl(215, 61%, 26%);
+    border-radius: 15px;
+    width: 350px;
+    height: 597px;
+    text-align: center;
+}
+.card-image{
+    background-image: url(images/image-equilibrium.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-size: 100%;
+    position: static;
+    cursor: pointer;
+    width: 306px;
+    height: 305px;
+    margin-left: 23px;
+    margin-top: 23px;
+    border-radius: 10px;
+}
+.card-image--hover{
+    background-color: hsla(178, 100%, 50%, 0.548); 
+    filter: blur();
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: inherit;
+}
+.card-image:hover .card-image--hover{
+    display: flex;
+}
+
+.cardcolor img{
+    width: 45px;
+    height: 34px;
+}
+.card-body{
+    width: 304px;
+    height: 212px;
+    margin-left: 23px;
+    text-align: initial;
+}
+.card-body h2:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+.card-body p{
+    color: hsl(215, 51%, 70%);
+    font-weight: normal;
+}
+.card-body--notifbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 304px;
+    height: 44px;
+}
+.card-body--notifbar_logo{
+    font-weight: bold;
+    width: 150px;
+}
+.card-body--notifbar span::before{
+    content: '';
+    background-image: url(images/icon-ethereum.svg);
+    background-repeat: no-repeat;
+    width: 19px;
+    height: 19px;
+    margin-bottom: -3px;
+    display: inline-block;
+}
+
+.card-body--notifbar a{
+    color: hsl(215, 51%, 70%);
+}
+.card-body--notifbar a::before{
+    content: '';
+    background-image: url(images/icon-clock.svg);
+    background-repeat: no-repeat;
+    width: 19px;
+    height: 19px;
+    margin-bottom: -4px;
+    margin-right: 5px;
+    display: inline-block;
+}
+.card-body--profil{
+    display: flex;
+    align-items: center;
+}
+.card-body--profil img{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.card-body--profil a:hover{
+    color: hsl(178, 100%, 50%);
+}
+@media only screen and (min-width:900px){
+        
+}
