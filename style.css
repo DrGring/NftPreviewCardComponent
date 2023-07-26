@@ -27,11 +27,12 @@ hr{
     height: 900px;
 }
 .card{
-    background-color: hsl(215, 61%, 26%);
+    background-color: hsl(216, 50%, 16%);
     border-radius: 15px;
     width: 350px;
     height: 597px;
-    text-align: center;
+    text-align: center; 
+    box-shadow: 0px 17px 30px 15px rgba(0, 0, 0, 0.959), 1px 6px 12px 30px hsl(216, 50%, 16%, 0.432);
 }
 .card-image{
     background-image: url(images/image-equilibrium.jpg);
@@ -122,7 +123,4 @@ hr{
 }
 .card-body--profil a:hover{
     color: hsl(178, 100%, 50%);
-}
-@media only screen and (min-width:900px){
-        
 }
